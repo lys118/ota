@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* .bidding-table{ */
+/* 	border: 1px solid #e5e5e5; */
+/* } */
+/* td{ */
+/* 	border: 1px solid #e5e5e5; */
+/* } */
+
+th.info-th, td.info-td{
+  border: 1px solid #e5e5e5;
+
+}
+
+th.bidding-th, td.bidding-td {
+  border: 1px solid #e5e5e5;
+/*   border-width: 1px; */
+}

@@ -1,0 +1,22 @@
+.footer
+{
+	content: "";
+	width : 100%;
+	height: 80px;
+	position: relative;
+	background-color: rgb(192, 192, 192);
+	box-sizing: border-box;	
+	top: 90%;
+}
+.footer > h3{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.footer > h3 > a
+{
+	text-decoration: underline;
+	color: white;
+}

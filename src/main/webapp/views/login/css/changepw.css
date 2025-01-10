@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.change-wrapper {
+  width: 600px;
+  height: 350px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 120px;
+}
+.change-wrapper > h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.change-wrapper > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#user_id {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#input-field {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#user_password {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+#input-field .icon {
+  top: 16px;
+  right: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#input-field-con {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#user_password_confirm {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+#input-field-con .icon {
+  top: 16px;
+  right: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#change {
+  width: 50%;
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+
+#findid {
+  margin-left: 85px;
+}
+
+#findid label {
+  font-size: 20px;
+}
+
+#findid a {
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+}
+
+
+

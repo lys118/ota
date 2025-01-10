@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-wrapper {
+  width: 1000px;
+  height: 1150px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-left: 0;
+}
+#join-form {
+  height: 1000px;
+}
+
+
+.join-wrapper > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #0d62fd;
+}
+
+#join-form > input {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}
+
+#id {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#id > #user_id {
+  width: 60%;
+  height: 48px;
+}
+
+#id > #idCheck-btn {
+  margin-top: 5px;
+  margin-left: 15px;
+  top: 10px;
+  text-align: center;
+  font-size: 15px;
+  width: 150px;
+  height: 35px;
+}
+
+#id label {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#idCheckSpan {
+	margin-left: 165px;
+}
+
+#input-field {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#input-field input {
+  width: 80%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+#input-field .icon {
+  top: 18px;
+  right: 38px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#input-field label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#input-field-con {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#input-field-con input {
+  width: 80%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+#input-field-con .icon {
+  top: 18px;
+  right: 38px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#input-field-con label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#pwCheckSpan {
+	margin-left:165px;
+}
+
+#postcode {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+#postcode > #user_postcode {
+  width: 60%;
+  height: 48px;
+}
+
+#postcode > #postcode-btn {
+  margin-top: 5px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 15px;
+  width: 120px;
+  height: 35px;
+}
+
+#postcode label {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+
+#name {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#name input {
+  width: 80%;
+  height: 48px;
+}
+
+#name label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#email {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#email input {
+  width: 60%;
+  height: 38px;
+}
+
+#email label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#email > #emailcheck-btn {
+  margin-top: 5px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 15px;
+  width: 120px;
+  height: 35px;
+}
+
+#auth {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#checknum {
+	width:60%;
+	margin-left: 160px
+}
+
+#emailCheckSpan {
+	margin-left:15px
+}
+
+
+#phone {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#phone input {
+  width: 80%;
+  height: 48px;
+}
+
+#phone label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#address {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#address input {
+  width: 80%;
+  height: 48px;
+}
+
+#address label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#detailaddress {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+#detailaddress input {
+  width: 80%;
+  height: 48px;
+}
+
+#detailaddress label {
+  font-size: 18px;
+  font-weight: bold;
+  width: 160px;
+}
+
+#btn-wrap {
+  width: 820px;
+  margin-left: 290px;
+  margin-bottom: 50px
+}
+
+#btn-wrap input {
+  width: 110px;
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  margin-top: 200px;
+  
+}
+
+#content h2 {
+  font-size: 50px;
+  margin-bottom: 50px;	
+} 
+
+#gohome {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: gray;
+  margin-left: 80px;
+}
+
+#gologin {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: gray;
+  margin-left: 200px;
+}

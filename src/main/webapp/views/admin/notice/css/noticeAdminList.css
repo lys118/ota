@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#notice_header{
+	text-align : center;
+}
+
+#notice_table{
+	width : 85%;
+	margin : 0 auto;
+}
+
+#buttonAndSearch_Box{
+	display:flex;
+	margin-bottom : 5px;
+	justify-content: space-between;
+	align-items : center;
+}
+#notice_search_form{
+	margin-top : 5px;
+	display :flex;
+	justify-content: flex-end;
+}
+
+#notice_search_form select{
+	width:120px;
+	margin-right:2px;
+}
+
+#notice_search_form input{
+	width:170px;
+	margin-right:2px;
+}
+
+#notice_search_form button{
+	width:90px;
+}
